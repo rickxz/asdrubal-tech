@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+# Asdrubal Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Projeto para a disciplina de Programação para Web II do curso de Análise e Desenvolvimento de Sistemas do IFSP São Carlos.
 
-Currently, two official plugins are available:
+## Índice
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Visão Geral](#visão-geral)
+  - [Captura de Tela](#captura-de-tela)
+  - [Construído com](#construído-com)
+  - [Funcionalidades](#funcionalidades)
+  - [Links](#links)
+- [Agradecimentos](#agradecimentos)
 
-## Expanding the ESLint configuration
+## Visão Geral
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Captura de Tela
 
-- Configure the top-level `parserOptions` property like this:
+![Screenshot do projeto](./public/image.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Construído com
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- 🛠️ **[TypeScript](https://www.typescriptlang.org/)** - Um superconjunto de JavaScript que adiciona tipagem estática ao idioma
+- 🎨 **[TailwindCSS](https://tailwindcss.com/)** - Framework CSS utilitário para desenvolvimento rápido de UI
+- 🧩 **[shadcn/ui](https://ui.shadcn.com/)** - Componentes de UI acessíveis e reutilizáveis
+- ⚛️ **[React Hook Form](https://react-hook-form.com/)** - Formulários performáticos, flexíveis e extensíveis com validação fácil de usar
+- 📜 **[Zod](https://zod.dev/)** - Declaração e validação de esquemas TypeScript-first
+- ⚡ **[Vite](https://vitejs.dev/)** - Ferramenta de build rápida e moderna para projetos web
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Introdução às Tecnologias Usadas
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- 🛠️ **TypeScript**: [TypeScript](https://www.typescriptlang.org/) é um superconjunto de JavaScript que adiciona tipagem estática ao idioma. Ele ajuda a detectar erros durante o desenvolvimento, melhorando a qualidade do código e a produtividade do desenvolvedor.
+- ⚡**Vite**: [Vite](https://vitejs.dev/) é uma ferramenta de build rápida e moderna para projetos web, que oferece uma experiência de desenvolvimento mais ágil e eficiente em comparação com ferramentas tradicionais como o Create React App.
+- ⚛️ **React Hook Form**: [React Hook Form](https://react-hook-form.com/) é uma biblioteca para gerenciamento de formulários em React. Ela é performática, flexível e extensível, facilitando a validação e o gerenciamento de estados dos formulários.
+- 🧩 **shadcn/ui**: [shadcn/ui](https://ui.shadcn.com/) é uma coleção de componentes de interface do usuário acessíveis e reutilizáveis, que ajudam a construir interfaces de usuário consistentes e acessíveis.
+- 🎨 **TailwindCSS**: [TailwindCSS](https://tailwindcss.com/) é um framework CSS utilitário que permite a construção rápida de interfaces de usuário estilizadas, utilizando classes utilitárias diretamente no HTML.
+
+### Funcionalidades
+
+- 📂 Listagem de produtos categorizados em seções: Computadores, Acessórios, Impressoras, Games e Gadgets
+- 🏷️ Marcas disponíveis: HP, Dell, Positivo, Asus e Xing Ling Genérico
+- 🛒 Registro de novos produtos na loja
+
+### Links
+
+- 🚀 URL do Site: Não disponível ainda!
+
+## Agradecimentos
+
+Um agradecimento especial a todos os contribuidores de código aberto e aos criadores das bibliotecas e ferramentas utilizadas neste projeto.
